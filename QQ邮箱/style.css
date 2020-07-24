@@ -1,0 +1,180 @@
+.header{
+    height:55px;
+    line-height:60px;
+    background: #eff4fa;
+    border-bottom:1px solid #d6dfea;
+}
+.header img{
+    width:182px;
+    height:50px;
+    margin-top: 5x;
+    margin-left: 40px;
+}
+.header nav{
+    text-align: right;
+    margin-top:-74px;
+    margin-right:40px;
+    letter-spacing: 0.4px;
+}
+.header nav a{
+    color:#1d5494;
+    text-decoration: none;
+}
+.header nav a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    width:1100px;
+    height:500px;
+    margin:auto;
+    margin-top:80px;
+}
+.content .text{
+    float:left;
+    margin-top:16px;
+    margin-left:95px;
+    line-height: 200%;
+}
+.content .text h1{
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    font-size: 24px;
+    font-weight: normal;
+    color:#6f95c8;
+}
+.content .text p{
+    display: block;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    font-size:14px;
+    font-weight: normal;
+    line-height: 24px ;
+}
+.content .pic{
+    float:left;
+    margin-top:90px;
+    margin-right: 80px;
+}
+.content .login{
+    float:left;
+    width:334px;
+    height:387px;
+    border-radius:4px;/* 设置圆角边框 */
+    border:1.1px solid #a0b1c4;/* 修改登录边框颜色 */
+}
+.content .login .sidebar{
+    background-color: #f9fbfe;
+    border-bottom:1px solid #a0b1c4;/* 修改登录卡片内横线颜色 */
+    height:50px;
+    line-height: 50px;
+}
+.content .login ul li{
+    list-style-type: none;
+    display:block;
+    height:50px;
+    font-size:16px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+    color:#f9fbfe;
+    background-color: #f9fbfe;
+}
+.content .login ul .tab1{
+    color: #999;
+    float:left;
+    margin-left:50px;
+    cursor: pointer;
+}
+.content .login ul .tab2{
+    color: #333;
+    float:right;
+    margin-right:50px;
+    cursor: pointer;
+}
+.content .login .acount{
+    border-radius:2px;/* 设置圆角边框 */
+    border:1px solid #a0b1c4;/* 修改登录边框颜色 */
+    margin-top:40px;
+    margin-left:27px;
+    width:280px;
+    height:35px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+}
+.content .login .password{
+    border-radius:2px;/* 设置圆角边框 */
+    border:1px solid #a0b1c4;/* 修改登录边框颜色 */
+    margin-top:15px;
+    margin-left:27px;
+    width:280px;
+    height:35px;
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+}
+.content .login .checkbox{
+    float:left;
+    margin-top:25px;
+    margin-left:30px;
+    width:16px;
+    height:16px;
+    border:1px solid #96a5b4;
+}
+.content .login p{
+    margin-top:25px;
+    float:left;
+}
+.content .login .submit{
+    border-radius:3px;
+    margin-left:27px;
+    margin-top:20px;
+    width:284px;
+    height:40px;
+    background: #5a98de;
+    line-height: 39px;
+    border:1px solid #5a98de;
+    font-size:18px;
+    color:#fff;
+    font-family:"lucida Grande",Verdana,"Microsoft YaHei";
+    cursor: pointer;
+}
+.content .login .code{
+    display: block;
+    margin-block-end: -2em;
+    margin-top:16px;
+    margin-left:130px;
+    color:#1d5494;
+    cursor: pointer;
+    font-size:13px;
+}
+.content .login .forget{
+    float:right;
+    margin-top:71px;
+    margin-right:25px;
+}
+.content .login a{
+    color:#1d5494;
+    text-decoration: none;
+}
+.content .login a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 2;
+    clear: both;
+    line-height:36px;
+    text-align: center;
+    color:#868686;
+    background:#eff4fa;
+    border-top:1px solid #d6dfea;
+    letter-spacing: 0.4px;
+}
+.footer a{
+    color:#1d5494;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
