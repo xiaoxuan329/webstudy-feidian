@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/list.css">
+    <title>管理系统</title>
+</head>
+<body>
+    <div id="root" class="flex-column">
+        <header class="flex-center" onselectstart="return false">
+            <h2>管理系统</h2>
+        </header>
+        <main class="flex-center-x" onselectstart="return false">
+            <table class="table flex-column" id="table">
+                <thead>
+                    <tr class="tr">
+                        <th class="th">id</th>
+                        <th class="th">username</th>
+                        <th class="th">number</th>
+                        <th class="th">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ each users }}
+                    <tr class="tr">
+                        <td class="td">{{ $value.id }}</td>
+                        <td class="td">{{ $value.username }}</td>
+                        <td class="td">{{ $value.number }}</td>
+                        <td class="td">
+                            <a href="/edit?id={{ $value.id }}"> 编辑 </a>
+                            <a href="/delete?id={{ $value.id }}"> 删除</a>
+                        </td>
+                    </tr>
+                    {{ /each }}
+                </tbody>
+            </table>
+        </main>
+        <footer> <p>made by xiaoxuan</p></footer>
+           
+
+    </div>
+</body>
+</html>

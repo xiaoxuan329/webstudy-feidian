@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    color: rgb(133, 75, 187);
+    text-align: center;
+    cursor: default;
+}
+
+main {
+    width: 100%;
+    flex: 1;
+    background: rgb(133, 75, 187);
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    cursor: default;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.flex-center-x {
+    display: flex;
+    justify-content: center;
+}
+main {
+    cursor: default;
+}
+
+/* 固定表头 */
+tbody {
+    overflow:auto;
+}
+
+.table {
+    width: 1000px;
+    max-height: 550px;
+    height: auto;
+    overflow-y: auto;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.tr {
+    width: 100%;
+    display: flex;
+}
+
+.th, .td {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    line-height: 40px;
+}
+
+.tr:nth-child(even) {
+    background: rgb(133, 75, 187);
+}
+
+.tr:nth-child(odd) {
+    background: white;
+}
+
+.th:nth-child(n) {
+    background:rgb(133, 75, 187);
+}
